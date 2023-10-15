@@ -1,0 +1,33 @@
+.input-wrapper{
+    height: 10em;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    padding: 16px;
+
+}
+.result-wrapper{
+    flex: 1;
+    font-size: 24px;
+  
+
+}
+h3{
+    flex: 1;
+    font-size: 23px;
+}
+
+@media only screen and (max-width: 600px){
+    .input-wrapper{
+       
+        height: 8rem;
+    }
+    .result-wrapper{
+        font-size: 10px;
+        
+    }
+    h3{
+        font-size: 15px;
+    }
+}
